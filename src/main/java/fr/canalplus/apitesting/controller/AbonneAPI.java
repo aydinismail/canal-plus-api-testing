@@ -18,8 +18,7 @@ public class AbonneAPI {
 
     @PostMapping("creer")
     public ResponseEntity<?> creerAbonne(@RequestBody AbonneCreateDTO abonneCreateDTO) {
-        Abonne abonne = abonneService.createAbonne(abonneCreateDTO);
-        return ResponseEntity.ok(abonne);
+        return ResponseEntity.ok(abonneService.createAbonne(abonneCreateDTO));
     }
 
 }

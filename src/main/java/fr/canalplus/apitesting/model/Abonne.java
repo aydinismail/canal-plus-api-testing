@@ -7,7 +7,7 @@ import javax.persistence.*;
 public class Abonne {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.TABLE, generator = "abonnes_gen")
     @Column(name = "id_abonne")
     private Long id;
 
