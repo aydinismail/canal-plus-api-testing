@@ -1,4 +1,4 @@
-package fr.canalplus.apitesting.dto;
+package fr.canalplus.apitesting.abonne.dto;
 
 public class AbonneCreateDTO {
 

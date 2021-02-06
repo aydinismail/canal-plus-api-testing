@@ -1,4 +1,4 @@
-package fr.canalplus.apitesting.model;
+package fr.canalplus.apitesting.contrat.model;
 
 import javax.persistence.*;
 

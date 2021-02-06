@@ -1,8 +1,7 @@
-package fr.canalplus.apitesting.controller;
+package fr.canalplus.apitesting.abonne.controller;
 
-import fr.canalplus.apitesting.dto.AbonneCreateDTO;
-import fr.canalplus.apitesting.model.Abonne;
-import fr.canalplus.apitesting.service.AbonneService;
+import fr.canalplus.apitesting.abonne.dto.AbonneCreateDTO;
+import fr.canalplus.apitesting.abonne.service.AbonneService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

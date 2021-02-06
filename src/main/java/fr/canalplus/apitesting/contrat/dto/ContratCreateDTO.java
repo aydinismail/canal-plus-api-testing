@@ -1,4 +1,4 @@
-package fr.canalplus.apitesting.dto;
+package fr.canalplus.apitesting.contrat.dto;
 
 public class ContratCreateDTO {
 

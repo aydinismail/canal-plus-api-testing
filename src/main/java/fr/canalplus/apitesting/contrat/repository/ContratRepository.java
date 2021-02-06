@@ -1,6 +1,6 @@
-package fr.canalplus.apitesting.repository;
+package fr.canalplus.apitesting.contrat.repository;
 
-import fr.canalplus.apitesting.model.Contrat;
+import fr.canalplus.apitesting.contrat.model.Contrat;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

@@ -1,8 +1,8 @@
-package fr.canalplus.apitesting.service;
+package fr.canalplus.apitesting.abonne.service;
 
-import fr.canalplus.apitesting.dto.AbonneCreateDTO;
-import fr.canalplus.apitesting.model.Abonne;
-import fr.canalplus.apitesting.repository.AbonneRepository;
+import fr.canalplus.apitesting.abonne.dto.AbonneCreateDTO;
+import fr.canalplus.apitesting.abonne.model.Abonne;
+import fr.canalplus.apitesting.abonne.repository.AbonneRepository;
 import org.springframework.stereotype.Service;
 
 @Service

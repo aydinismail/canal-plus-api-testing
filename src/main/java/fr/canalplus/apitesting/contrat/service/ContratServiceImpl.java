@@ -1,12 +1,10 @@
-package fr.canalplus.apitesting.service;
+package fr.canalplus.apitesting.contrat.service;
 
-import fr.canalplus.apitesting.dto.ContratCreateDTO;
-import fr.canalplus.apitesting.model.Contrat;
-import fr.canalplus.apitesting.repository.AbonneRepository;
-import fr.canalplus.apitesting.repository.ContratRepository;
+import fr.canalplus.apitesting.contrat.dto.ContratCreateDTO;
+import fr.canalplus.apitesting.contrat.model.Contrat;
+import fr.canalplus.apitesting.abonne.repository.AbonneRepository;
+import fr.canalplus.apitesting.contrat.repository.ContratRepository;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class ContratServiceImpl implements ContratService {
