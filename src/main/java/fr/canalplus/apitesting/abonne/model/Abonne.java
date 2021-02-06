@@ -44,6 +44,14 @@ public class Abonne {
         return pays;
     }
 
+    public void setAdresse(String adresse) {
+        this.adresse = adresse;
+    }
+
+    public void setPays(String pays) {
+        this.pays = pays;
+    }
+
     public Abonne() {
 
     }
