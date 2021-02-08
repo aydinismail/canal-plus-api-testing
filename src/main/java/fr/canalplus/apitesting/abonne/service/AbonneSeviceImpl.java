@@ -7,7 +7,6 @@ import fr.canalplus.apitesting.abonne.repository.AbonneRepository;
 import javassist.NotFoundException;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
 
 @Service
 public class AbonneSeviceImpl implements AbonneService {

@@ -29,6 +29,10 @@ public class Contrat {
         return adresse_contrat;
     }
 
+    public void setAdresse_contrat(String adresse_contrat) {
+        this.adresse_contrat = adresse_contrat;
+    }
+
     public Contrat() {
 
     }
@@ -36,5 +40,10 @@ public class Contrat {
     public Contrat(Long id_abonne, String adresse_contrat) {
         this.id_abonne = id_abonne;
         this.adresse_contrat = adresse_contrat;
+    }
+
+    public Contrat(Long id_abonne, Long id_contrat) {
+        this.id_abonne = id_abonne;
+        this.id_contrat = id_contrat;
     }
 }

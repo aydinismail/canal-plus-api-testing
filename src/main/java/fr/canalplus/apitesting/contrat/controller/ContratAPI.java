@@ -1,10 +1,9 @@
 package fr.canalplus.apitesting.contrat.controller;
 
+import fr.canalplus.apitesting.contrat.dto.ContratModifierDTO;
+import javassist.NotFoundException;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import fr.canalplus.apitesting.contrat.service.ContratService;
 import fr.canalplus.apitesting.contrat.dto.ContratCreateDTO;
 
@@ -21,6 +20,12 @@ public class ContratAPI {
     @PostMapping("creer")
     public ResponseEntity<?> creerContrat(@RequestBody ContratCreateDTO contratCreateDTO) {
         return ResponseEntity.ok(contratService.createContrat(contratCreateDTO));
+    }
+
+    @PutMapping("modifier")
+    public String modifierContrat(@RequestBody ContratModifierDTO contratModifierDTO) throws NotFoundException {
+        contratService.modifierContrat(contratModifierDTO);
+        return "Changée l'adresse !";
     }
 
 }
